@@ -1,0 +1,17 @@
+# Environment
+.env
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Outputs
+output/
+trm_submission/output/
+
+# Zip files
+*.zip
+
+# macOS
+.DS_Store

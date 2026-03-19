@@ -1,5 +1,19 @@
 # TRM Labs Crypto Scam Detection Agent
 
+## Overview
+
+This project is an AI-powered crypto scam detection agent that analyzes websites to identify fraudulent cryptocurrency platforms and extract on-chain threat intelligence.
+
+It combines large language model (LLM) classification with asynchronous web scraping and browser automation to detect scams that traditional rule-based systems often miss. The system processes URLs at scale using a concurrent pipeline and outputs structured results including scam classifications, extracted wallet addresses, and forensic screenshots.
+
+Key highlights:
+- Classified 160 crypto-related websites, identifying 89 scams
+- Extracted 7 confirmed on-chain wallet addresses from malicious platforms
+- Designed a concurrent async pipeline using httpx + Playwright with 6 workers
+- Integrated OpenAI GPT-4o for semantic classification beyond keyword matching
+- Built a multi-stage detection system combining heuristics, LLMs, and regex-based validation
+
+This project demonstrates backend system design, async processing, and real-world application of LLMs for security and fraud detection.
 ## Quick Start
 
 ```bash

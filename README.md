@@ -1,4 +1,4 @@
-# TRM Labs Crypto Scam Detection Agent
+# Crypto Scam Detection Agent
 
 ## Overview
 
